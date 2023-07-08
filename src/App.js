@@ -6,7 +6,7 @@ import SAMEXL from "./SAMEXL";
 import Elastic from "./Elastic";
 import DefferedSolution from "./HOOKS/DefferedSolution";
 import FormChecking from "./FormChecking";
-import EffectUS from "./HOOKS/EffectUS";
+// import EffectUS from "./HOOKS/EffectUS";
 
 
 function App() {
@@ -26,7 +26,8 @@ function App() {
 
           {/* <FormChecking/> */}
 
-          <EffectUS/>
+          {/* <EffectUS/> */}
+          <h1>LENOVO THINK BOOK</h1>
     </div>
   );
 }
