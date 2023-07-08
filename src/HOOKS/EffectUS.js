@@ -29,6 +29,7 @@ const EffectUS = () => {
     return (
       <div>
         <h1>Data from API:</h1>
+        <h1>CHECK THE LIST</h1>
         <ul>
           {data.map(item => (
             <li key={item.id}>{item.name}</li>
