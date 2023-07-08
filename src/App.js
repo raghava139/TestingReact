@@ -1,9 +1,33 @@
+import Antd from "./NEstedTable";
+import NEstedTable from "./NEstedTable";
+import MyTable from "./ExcelReact";
+import Fake from "./Fake";
+import SAMEXL from "./SAMEXL";
+import Elastic from "./Elastic";
+import DefferedSolution from "./HOOKS/DefferedSolution";
+import FormChecking from "./FormChecking";
+import EffectUS from "./HOOKS/EffectUS";
+
+
 function App() {
   return (
     <div>
-          React Hello World
+          {/* <Fake/> */}
+
+          {/* <MyTable/> */}
+
+          {/* <Antd/> */}
+
+          {/* <SAMEXL/> */}
+
+          {/* <Elastic/> */}
+
+          {/* <DefferedSolution/> */}
+
+          {/* <FormChecking/> */}
+
+          <EffectUS/>
     </div>
   );
 }
-
 export default App;
